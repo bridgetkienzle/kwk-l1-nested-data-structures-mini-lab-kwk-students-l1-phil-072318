@@ -1,9 +1,9 @@
 # example ingredients array
 ingredients = [
-  :bread ["rye", "sourdough", "baguette"],
-  :meat ["ham", "salami", "turkey"],
-  :cheese  ["swiss", "munster", "cheddar"],
-  :condiments ["mayo", "mustard", "tabasco"]
+  :bread = ["rye", "sourdough", "baguette"],
+  :meat = ["ham", "salami", "turkey"],
+  :cheese = ["swiss", "munster", "cheddar"],
+  :condiments = ["mayo", "mustard", "tabasco"]
 ]
 
 puts "your order is #{[:bread][1]}, #{[:meat][2]}, #{[:cheese][0]}, #{[:condiments][1]}."
