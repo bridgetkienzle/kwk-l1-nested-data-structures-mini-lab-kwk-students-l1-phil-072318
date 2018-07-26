@@ -1,20 +1,12 @@
 # example ingredients array
 ingredients = [
-    ["rye", "sourdough", "baguette"],
-    ["ham", "salami", "turkey"],
-    ["swiss", "munster", "cheddar"],
-    ["mayo", "mustard", "tabasco"]
+  :bread ["rye", "sourdough", "baguette"],
+  :meat ["ham", "salami", "turkey"],
+  :cheese  ["swiss", "munster", "cheddar"],
+  :condiments ["mayo", "mustard", "tabasco"]
 ]
 
-def sandwich_request(ingredients, order) 
-ingredients = [
-    ["rye", "sourdough", "baguette"],
-    ["ham", "salami", "turkey"],
-    ["swiss", "munster", "cheddar"],
-    ["mayo", "mustard", "tabasco"]
-]
-end
-sandwich_request(0, 2) 
+puts "our order is #{[:bread][1]}, #{[:meat][2]}, #{{["
 
 # example city_info hash
 # cities = {
