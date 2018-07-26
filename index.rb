@@ -6,7 +6,7 @@ ingredients = {
   :condiments => ["mayo", "mustard", "tabasco"]
 }
 
-puts "your order is #{[:bread][0]}, #{[:meat][0]}, #{[:cheese][0]}, #{[:condiments][0]}."
+puts "your order is #{:bread[0]}, #{:meat[0]}, #{:cheese[0]}, #{:condiments[0]}."
 
 # example city_info hash
 # cities = {
